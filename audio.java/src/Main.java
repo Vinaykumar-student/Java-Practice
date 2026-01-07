@@ -26,7 +26,7 @@ public class Main {
                switch (res){
                    case "P" ->{
                        clip.start();
-                       if(thread.isAlive()) {
+                       if(thread.isAlive()){
                            thread.start();
                        }
                    }
